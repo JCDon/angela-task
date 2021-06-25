@@ -1,0 +1,41 @@
+/* Main Page */
+body {
+    background-image:  url("images/whiteWalls.jpg");
+    border: brown !important;
+}
+
+.block {
+    margin-top: 100px !important;
+}
+/* Fonts */
+.amatic {
+    font-family: 'Amatic SC', cursive;
+}
+
+/* Text Sizes */
+.largeText {
+    font-size: 100px !important;
+}
+
+.midText {
+    font-size: 35px !important;
+}
+
+.smallText {
+    font-size: 16px !important;
+}
+
+/* Text Aligns */
+
+.alignRight {
+    text-align: right !important;
+}
+
+.alignCenter {
+    text-align: center !important;
+}
+
+/* Text Colors */
+.blackText {
+    color: black !important;
+}
