@@ -1,8 +1,6 @@
-# angela-task
+# The Lighter Side
 
-# Jonathon Condon
-
-Link to deployed site: [https://afternoon-stream-70056.herokuapp.com/portfolio](https://afternoon-stream-70056.herokuapp.com/portfolio)
+Link to deployed site: [#](#)
 
 ## Description
 
