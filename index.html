@@ -13,20 +13,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <!-- Handlee -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handlee&display=swap" rel="stylesheet">
     <!-- Title -->
-    <title>Burden to Blessing</title>
+    <title>TheLighterSide.com</title>
 </head>
 <!-- Body -->
-
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light amatic">
         <div class="container-fluid justify-content-between">
-            <span class="navbar-text midText blackText col-4">
+            <span class="midText blackText col-4">
                 Professional Organizing
             </span>
             <div class="collapse navbar-collapse col-4" id="navbarText">
-                <a class="navbar-brand largeText alignCenter" href="#">The Lighter Side</a>
+                <p class="titleText alignCenter align-self-center" style="padding-left: 70px !important;">The Lighter
+                    Side</p>
             </div>
             <span class="navbar-text midText blackText col-4 alignRight">
                 With a Gentle Touch
@@ -36,23 +40,90 @@
     <nav class="navbar navbar-expand-md navbar-light bg-light amatic">
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav midText ">
-                <li class="nav-item active">
+                <li class="nav-item hover">
                     <a class="nav-link" href="#">Services</a>
                 </li>
             </ul>
-            <ul class="navbar-nav midText ">
+            <ul class="navbar-nav midText hover">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About Me</a>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn midText" data-toggle="modal" data-target="#aboutMeModal">
+                        Learn More
+                    </button>
                 </li>
             </ul>
-            <ul class="navbar-nav midText ">
-                 <li class="nav-item">
+            <ul class="navbar-nav midText hover">
+                <li class="nav-item">
                     <a class="nav-link" href="#">Contact</a>
                 </li>
             </ul>
         </div>
 
     </nav>
+
+
+
+    <!-- Container for page alignment -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="floatLeft words">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quibusdam rerum, eveniet, eaque
+                    praesentium quisquam, nesciunt tempora magnam aut similique dolorem cumque! Est accusantium
+                    reiciendis cupiditate earum esse atque eos!</p>
+            </div>
+
+            <div class="organizedBackground2"></div>
+
+            <div class="floatRight words">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, ipsam itaque aperiam, quo laboriosam,
+                necessitatibus aspernatur veniam at omnis repudiandae sint incidunt libero fuga dolores consequatur quam
+                vel aliquid ea!
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal for About Me -->
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="aboutMeModal" tabindex="-1" aria-labelledby="aboutMeModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title largeText handlee" id="aboutMeModalLabel">Angela Calvetti</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p class="smallText handlee"> I have been a part of Seattle for over 10 years and fell in love with
+                        its sense of community.
+                        I’ve loved learning from the friendly, honest and hard working people I’ve been blessed to know.
+                    </p>
+                    <p class="smallText handlee">
+                        I value people above all else and want to include helping people as part of my journey. The
+                        uniqueness of each of my clients is very fulfilling for me, like walking through the beautiful
+                        garden of life.
+                    </p>
+                    <p class="smallText handlee">
+                        Because of this, I decided to do business in a radically different way, sharing my gift of
+                        organizing while working in the abundance of love and believing in the goodness of others.
+                    </p>
+                    <strong>
+                        <p class="smallText handlee"> If I
+                            can help you move from burdened to blessed, please let me know!</p>
+                    </strong>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Done</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Bootstrap Bundle / Jquery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"

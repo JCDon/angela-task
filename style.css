@@ -1,7 +1,26 @@
 /* Main Page */
 body {
-    background-image:  url("images/whiteWalls.jpg");
+    background-image:  url("images/whiteWalls2.jpg");
     border: brown !important;
+}
+
+/* Background Containers */
+
+.words {
+    height: 200px;
+    width: 200px;
+    margin-top: 100px !important;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.organizedBackground2 {
+    background-image: url("images/organized2.jpg!d");
+    height: 800px;
+    width: 1124px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 3px;
 }
 
 .block {
@@ -12,17 +31,30 @@ body {
     font-family: 'Amatic SC', cursive;
 }
 
+.handlee {
+    font-family: 'Handlee', cursive;
+}
+
 /* Text Sizes */
-.largeText {
+
+.titleText {
     font-size: 100px !important;
 }
 
+.largeText {
+    font-size: 80px !important;
+}
+
 .midText {
-    font-size: 35px !important;
+    font-size: 40px !important;
 }
 
 .smallText {
-    font-size: 16px !important;
+    font-size: 30px !important;
+}
+
+.tinyText {
+    font-size: 20px !important;
 }
 
 /* Text Aligns */
@@ -38,4 +70,22 @@ body {
 /* Text Colors */
 .blackText {
     color: black !important;
+}
+
+.whiteText {
+    color: white;
+    text-shadow: -2px 2px 0 #000,
+                  2px 2px 0 #000,
+                 2px -2px 0 #000,
+                -2px -2px 0 #000;
+}
+
+/* Floats */
+
+.floatLeft {
+    float: left !important;
+}
+
+.floatRight {
+    float: right !important;
 }
